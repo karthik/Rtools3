@@ -12,7 +12,7 @@ Installing via Package Control: The fastest way to install is via the command pa
 If you don't have package control installed, the just clone this repo into your `Sublime Text 3/packages` directory
 
 ```
-git clone git@github.com:karthikram/Rtools2.git
+git clone git@github.com:karthikram/Rtools3.git
 ```
 
 
