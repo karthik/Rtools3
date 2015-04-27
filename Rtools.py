@@ -18,7 +18,7 @@ class RDocsCommand(sublime_plugin.TextCommand):
         for p in params:
             snippet += "#' @param %s <what param does>\n" % p
 
-        snippet += "#' @export\n#' @keywords\n#' @seealso\n#' @return\n#' @alias\n#' @examples \dontrun{\n#'\n#'}\n"
+        snippet += "#' @export\n#' @examples \dontrun{\n#'\n#'}\n"
 
         self.view.insert(edit, sel.begin(), snippet)
 
@@ -32,7 +32,7 @@ class SendSelectionCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         # Check if it's an R file
-        filescope = self.view.syntax_name(self.view.sel()[0].b)
+        filescope = self.view.scope_name(self.view.sel()[0].b)
         if ("source.r " not in filescope) and ("source.r." not in filescope):
             return
 
