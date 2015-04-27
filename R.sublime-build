@@ -1,3 +1,3 @@
 {
-  "cmd": ["osascript", "-e", "tell app \"R64\" to cmd \"source('$file')\"\n"]
+  "cmd": ["osascript", "-e", "tell app \"R\" to cmd \"source('$file')\"\n"]
 }

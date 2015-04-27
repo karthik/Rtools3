@@ -1,5 +1,5 @@
-# Rtools for Sublime Text 2
-This package provides a couple of useful tools for people using [Sublime Text 2](http://www.sublimetext.com/) to code in `R`. It has the key bindings to send a selection of code to R, and can also generate [Roxygen documentation](http://cran.r-project.org/package=roxygen2
+# Rtools for Sublime Text 3
+This package provides a couple of useful tools for people using [Sublime Text 3](http://www.sublimetext.com/) to code in `R`. It has the key bindings to send a selection of code to R, and can also generate [Roxygen documentation](http://cran.r-project.org/package=roxygen2
 ) templates for any function quickly (select first line of a function till the first `{`, press keybinding and it will generate a template with `@params` from the function definition).
 
 We plan to add functionality of [formatR](http://cran.r-project.org/package=formatR
@@ -9,7 +9,7 @@ We plan to add functionality of [formatR](http://cran.r-project.org/package=form
 
 Installing via Package Control: The fastest way to install is via the command palette (open command palette, type in Install Packages, and once list is populated look for `R tools`)
 
-If you don't have package control installed, the just clone this repo into your `Sublime Text 2/packages` directory
+If you don't have package control installed, the just clone this repo into your `Sublime Text 3/packages` directory
 
 ```
 git clone git@github.com:karthikram/Rtools.git
